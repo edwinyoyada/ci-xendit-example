@@ -33,7 +33,7 @@ class Invoice extends CI_Controller {
 		$amount = $this->input->post("amount");
 
 		// https://github.com/xendit/xendit-php/blob/master/examples/InvoiceExample.php
-		Xendit::setApiKey('xnd_production_21uAYY7p2te4yLC8AFPKpw7ZcQQ3KL9JULvqEupsdRNEJD8zlMh2NwJnNg5xhk');
+		Xendit::setApiKey('');
 
 		$params = [
 			"external_id" => $extId,
